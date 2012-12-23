@@ -1,0 +1,15 @@
+[submodule "External/FMDB"]
+	path = External/FMDB
+	url = https://github.com/ccgus/fmdb.git
+[submodule "External/SQLite"]
+	path = External/SQLite
+	url = https://github.com/countingtoten/SQLite-iOS.git
+[submodule "External/WordNetData"]
+	path = External/WordNetData
+	url = https://github.com/countingtoten/WordNetData.git
+[submodule "External/LineReader"]
+	path = External/LineReader
+	url = https://github.com/countingtoten/LineReader.git
+[submodule "External/WordNetDictionary"]
+	path = External/WordNetDictionary
+	url = https://github.com/countingtoten/WordNetDictionary.git

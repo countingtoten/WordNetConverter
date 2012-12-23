@@ -11,19 +11,64 @@
 		0B034D6D167E82E200382AAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B034D6C167E82E200382AAD /* Foundation.framework */; };
 		0B034D70167E82E200382AAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B034D6F167E82E200382AAD /* main.m */; };
 		0B034D75167E82E200382AAD /* WordNetConverter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B034D73167E82E200382AAD /* WordNetConverter.xcdatamodeld */; };
-		0B034D77167E82E200382AAD /* WordNetConverter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0B034D76167E82E200382AAD /* WordNetConverter.1 */; };
+		0B034DAA167E860C00382AAD /* libSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B034DA6167E85D300382AAD /* libSQLite.a */; };
+		0B034DB2167E863300382AAD /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B034DAD167E863300382AAD /* FMDatabase.m */; };
+		0B034DB3167E863300382AAD /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B034DAF167E863300382AAD /* FMDatabaseAdditions.m */; };
+		0B034DB4167E863300382AAD /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B034DB1167E863300382AAD /* FMResultSet.m */; };
+		0BCC5D10167EDF390021B6F4 /* data.adj in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D6B167EBE0400423B07 /* data.adj */; };
+		0BCC5D11167EDF390021B6F4 /* data.adv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D6C167EBE0400423B07 /* data.adv */; };
+		0BCC5D12167EDF390021B6F4 /* data.noun in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D6D167EBE0400423B07 /* data.noun */; };
+		0BCC5D13167EDF390021B6F4 /* data.verb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D6E167EBE0400423B07 /* data.verb */; };
+		0BCC5D14167EDF390021B6F4 /* index.adj in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D6F167EBE0400423B07 /* index.adj */; };
+		0BCC5D15167EDF390021B6F4 /* index.adv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D70167EBE0400423B07 /* index.adv */; };
+		0BCC5D16167EDF390021B6F4 /* index.noun in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D71167EBE0400423B07 /* index.noun */; };
+		0BCC5D17167EDF390021B6F4 /* index.sense in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D72167EBE0400423B07 /* index.sense */; };
+		0BCC5D18167EDF390021B6F4 /* index.verb in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D73167EBE0400423B07 /* index.verb */; };
+		0BF88D7C167EBEBB00423B07 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF88D79167EBEAD00423B07 /* FileReader.m */; };
+		0BF88D7D167EBEBB00423B07 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF88D7B167EBEAD00423B07 /* NSDataExtensions.m */; };
+		0BF88D7F167EBF2600423B07 /* data.test in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D75167EBE0400423B07 /* data.test */; };
+		0BF88D80167EBF2600423B07 /* index.test in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0BF88D76167EBE0400423B07 /* index.test */; };
+		0BF88D83167ECACA00423B07 /* WordToDefMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF88D82167ECACA00423B07 /* WordToDefMap.m */; };
+		0BF88D8F167ECB0E00423B07 /* DefToPosMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF88D8E167ECB0E00423B07 /* DefToPosMap.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0B034DA5167E85D300382AAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B034D9E167E85D300382AAD /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B301EC815CF8A33001B7F58;
+			remoteInfo = SQLite;
+		};
+		0B034DA8167E860700382AAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B034D9E167E85D300382AAD /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B301EC715CF8A33001B7F58;
+			remoteInfo = SQLite;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		0B034D64167E82E200382AAD /* CopyFiles */ = {
+		0BF88D7E167EBF0D00423B07 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
-				0B034D77167E82E200382AAD /* WordNetConverter.1 in CopyFiles */,
+				0BCC5D10167EDF390021B6F4 /* data.adj in CopyFiles */,
+				0BCC5D11167EDF390021B6F4 /* data.adv in CopyFiles */,
+				0BCC5D12167EDF390021B6F4 /* data.noun in CopyFiles */,
+				0BCC5D13167EDF390021B6F4 /* data.verb in CopyFiles */,
+				0BCC5D14167EDF390021B6F4 /* index.adj in CopyFiles */,
+				0BCC5D15167EDF390021B6F4 /* index.adv in CopyFiles */,
+				0BCC5D16167EDF390021B6F4 /* index.noun in CopyFiles */,
+				0BCC5D17167EDF390021B6F4 /* index.sense in CopyFiles */,
+				0BCC5D18167EDF390021B6F4 /* index.verb in CopyFiles */,
+				0BF88D7F167EBF2600423B07 /* data.test in CopyFiles */,
+				0BF88D80167EBF2600423B07 /* index.test in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -35,6 +80,32 @@
 		0B034D72167E82E200382AAD /* WordNetConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordNetConverter-Prefix.pch"; sourceTree = "<group>"; };
 		0B034D74167E82E200382AAD /* WordNetConverter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordNetConverter.xcdatamodel; sourceTree = "<group>"; };
 		0B034D76167E82E200382AAD /* WordNetConverter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WordNetConverter.1; sourceTree = "<group>"; };
+		0B034D9E167E85D300382AAD /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = External/SQLite/SQLite.xcodeproj; sourceTree = "<group>"; };
+		0B034DAC167E863300382AAD /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = External/FMDB/src/FMDatabase.h; sourceTree = SOURCE_ROOT; };
+		0B034DAD167E863300382AAD /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = External/FMDB/src/FMDatabase.m; sourceTree = SOURCE_ROOT; };
+		0B034DAE167E863300382AAD /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = External/FMDB/src/FMDatabaseAdditions.h; sourceTree = SOURCE_ROOT; };
+		0B034DAF167E863300382AAD /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = External/FMDB/src/FMDatabaseAdditions.m; sourceTree = SOURCE_ROOT; };
+		0B034DB0167E863300382AAD /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = External/FMDB/src/FMResultSet.h; sourceTree = SOURCE_ROOT; };
+		0B034DB1167E863300382AAD /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = External/FMDB/src/FMResultSet.m; sourceTree = SOURCE_ROOT; };
+		0BF88D6B167EBE0400423B07 /* data.adj */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.adj; sourceTree = "<group>"; };
+		0BF88D6C167EBE0400423B07 /* data.adv */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.adv; sourceTree = "<group>"; };
+		0BF88D6D167EBE0400423B07 /* data.noun */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.noun; sourceTree = "<group>"; };
+		0BF88D6E167EBE0400423B07 /* data.verb */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.verb; sourceTree = "<group>"; };
+		0BF88D6F167EBE0400423B07 /* index.adj */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.adj; sourceTree = "<group>"; };
+		0BF88D70167EBE0400423B07 /* index.adv */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.adv; sourceTree = "<group>"; };
+		0BF88D71167EBE0400423B07 /* index.noun */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.noun; sourceTree = "<group>"; };
+		0BF88D72167EBE0400423B07 /* index.sense */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.sense; sourceTree = "<group>"; };
+		0BF88D73167EBE0400423B07 /* index.verb */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.verb; sourceTree = "<group>"; };
+		0BF88D75167EBE0400423B07 /* data.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.test; sourceTree = "<group>"; };
+		0BF88D76167EBE0400423B07 /* index.test */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.test; sourceTree = "<group>"; };
+		0BF88D78167EBEAD00423B07 /* FileReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FileReader.h; path = External/LineReader/FileReader.h; sourceTree = SOURCE_ROOT; };
+		0BF88D79167EBEAD00423B07 /* FileReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FileReader.m; path = External/LineReader/FileReader.m; sourceTree = SOURCE_ROOT; };
+		0BF88D7A167EBEAD00423B07 /* NSDataExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSDataExtensions.h; path = External/LineReader/NSDataExtensions.h; sourceTree = SOURCE_ROOT; };
+		0BF88D7B167EBEAD00423B07 /* NSDataExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NSDataExtensions.m; path = External/LineReader/NSDataExtensions.m; sourceTree = SOURCE_ROOT; };
+		0BF88D81167ECACA00423B07 /* WordToDefMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordToDefMap.h; sourceTree = "<group>"; };
+		0BF88D82167ECACA00423B07 /* WordToDefMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordToDefMap.m; sourceTree = "<group>"; };
+		0BF88D8D167ECB0E00423B07 /* DefToPosMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefToPosMap.h; sourceTree = "<group>"; };
+		0BF88D8E167ECB0E00423B07 /* DefToPosMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefToPosMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B034DAA167E860C00382AAD /* libSQLite.a in Frameworks */,
 				0B034D6B167E82E200382AAD /* CoreData.framework in Frameworks */,
 				0B034D6D167E82E200382AAD /* Foundation.framework in Frameworks */,
 			);
@@ -53,6 +125,7 @@
 		0B034D5B167E82E200382AAD = {
 			isa = PBXGroup;
 			children = (
+				0B034D9E167E85D300382AAD /* SQLite.xcodeproj */,
 				0B034D6E167E82E200382AAD /* WordNetConverter */,
 				0B034D69167E82E200382AAD /* Frameworks */,
 				0B034D67167E82E200382AAD /* Products */,
@@ -79,7 +152,14 @@
 		0B034D6E167E82E200382AAD /* WordNetConverter */ = {
 			isa = PBXGroup;
 			children = (
+				0B034DAB167E861800382AAD /* FMDB */,
+				0BF88D77167EBE7E00423B07 /* LineReader */,
+				0BF88D69167EBDB300423B07 /* WordNetData */,
 				0B034D6F167E82E200382AAD /* main.m */,
+				0BF88D81167ECACA00423B07 /* WordToDefMap.h */,
+				0BF88D82167ECACA00423B07 /* WordToDefMap.m */,
+				0BF88D8D167ECB0E00423B07 /* DefToPosMap.h */,
+				0BF88D8E167ECB0E00423B07 /* DefToPosMap.m */,
 				0B034D76167E82E200382AAD /* WordNetConverter.1 */,
 				0B034D73167E82E200382AAD /* WordNetConverter.xcdatamodeld */,
 				0B034D71167E82E200382AAD /* Supporting Files */,
@@ -95,6 +175,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0B034D9F167E85D300382AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B034DA6167E85D300382AAD /* libSQLite.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B034DAB167E861800382AAD /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				0B034DAC167E863300382AAD /* FMDatabase.h */,
+				0B034DAD167E863300382AAD /* FMDatabase.m */,
+				0B034DAE167E863300382AAD /* FMDatabaseAdditions.h */,
+				0B034DAF167E863300382AAD /* FMDatabaseAdditions.m */,
+				0B034DB0167E863300382AAD /* FMResultSet.h */,
+				0B034DB1167E863300382AAD /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		0BF88D69167EBDB300423B07 /* WordNetData */ = {
+			isa = PBXGroup;
+			children = (
+				0BF88D6A167EBE0400423B07 /* data */,
+				0BF88D74167EBE0400423B07 /* test */,
+			);
+			name = WordNetData;
+			sourceTree = "<group>";
+		};
+		0BF88D6A167EBE0400423B07 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				0BF88D6B167EBE0400423B07 /* data.adj */,
+				0BF88D6C167EBE0400423B07 /* data.adv */,
+				0BF88D6D167EBE0400423B07 /* data.noun */,
+				0BF88D6E167EBE0400423B07 /* data.verb */,
+				0BF88D6F167EBE0400423B07 /* index.adj */,
+				0BF88D70167EBE0400423B07 /* index.adv */,
+				0BF88D71167EBE0400423B07 /* index.noun */,
+				0BF88D72167EBE0400423B07 /* index.sense */,
+				0BF88D73167EBE0400423B07 /* index.verb */,
+			);
+			name = data;
+			path = External/WordNetData/data;
+			sourceTree = SOURCE_ROOT;
+		};
+		0BF88D74167EBE0400423B07 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				0BF88D75167EBE0400423B07 /* data.test */,
+				0BF88D76167EBE0400423B07 /* index.test */,
+			);
+			name = test;
+			path = External/WordNetData/test;
+			sourceTree = SOURCE_ROOT;
+		};
+		0BF88D77167EBE7E00423B07 /* LineReader */ = {
+			isa = PBXGroup;
+			children = (
+				0BF88D78167EBEAD00423B07 /* FileReader.h */,
+				0BF88D79167EBEAD00423B07 /* FileReader.m */,
+				0BF88D7A167EBEAD00423B07 /* NSDataExtensions.h */,
+				0BF88D7B167EBEAD00423B07 /* NSDataExtensions.m */,
+			);
+			name = LineReader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,11 +252,12 @@
 			buildPhases = (
 				0B034D62167E82E200382AAD /* Sources */,
 				0B034D63167E82E200382AAD /* Frameworks */,
-				0B034D64167E82E200382AAD /* CopyFiles */,
+				0BF88D7E167EBF0D00423B07 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0B034DA9167E860700382AAD /* PBXTargetDependency */,
 			);
 			name = WordNetConverter;
 			productName = WordNetConverter;
@@ -134,6 +283,12 @@
 			mainGroup = 0B034D5B167E82E200382AAD;
 			productRefGroup = 0B034D67167E82E200382AAD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0B034D9F167E85D300382AAD /* Products */;
+					ProjectRef = 0B034D9E167E85D300382AAD /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0B034D65167E82E200382AAD /* WordNetConverter */,
@@ -141,17 +296,42 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0B034DA6167E85D300382AAD /* libSQLite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSQLite.a;
+			remoteRef = 0B034DA5167E85D300382AAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B034D62167E82E200382AAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF88D7C167EBEBB00423B07 /* FileReader.m in Sources */,
+				0BF88D7D167EBEBB00423B07 /* NSDataExtensions.m in Sources */,
 				0B034D70167E82E200382AAD /* main.m in Sources */,
 				0B034D75167E82E200382AAD /* WordNetConverter.xcdatamodeld in Sources */,
+				0B034DB2167E863300382AAD /* FMDatabase.m in Sources */,
+				0B034DB3167E863300382AAD /* FMDatabaseAdditions.m in Sources */,
+				0B034DB4167E863300382AAD /* FMResultSet.m in Sources */,
+				0BF88D83167ECACA00423B07 /* WordToDefMap.m in Sources */,
+				0BF88D8F167ECB0E00423B07 /* DefToPosMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B034DA9167E860700382AAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite;
+			targetProxy = 0B034DA8167E860700382AAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0B034D78167E82E200382AAD /* Debug */ = {
@@ -244,6 +424,7 @@
 				0B034D7C167E82E200382AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
